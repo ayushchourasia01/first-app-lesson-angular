@@ -4,7 +4,7 @@ import {HomeComponent} from './home/home.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HomeComponent],
+  imports: [HomeComponent,],
   template: `
   <main>
     <header class="brand-name">
@@ -18,5 +18,5 @@ import {HomeComponent} from './home/home.component';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'Default';
+  title = 'homes';
 }
